@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export const HeroSection: React.FC = () => {
   return (
-    <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-grid-pattern bg-radial-blue">
+    <section className="relative pt-10 pb-16 md:pt-14 md:pb-24 overflow-hidden bg-grid-pattern bg-radial-blue">
       {/* Background Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary-blue/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute top-1/3 right-10 w-[350px] h-[350px] bg-gold/10 rounded-full blur-[100px] pointer-events-none" />

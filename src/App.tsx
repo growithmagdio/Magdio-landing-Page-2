@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Navbar } from './components/sections/Navbar';
 import { HeroSection } from './components/sections/01_Hero';
 import { TheGapSection } from './components/sections/02_TheGap';
 import { WhatWeDoSection } from './components/sections/03_WhatWeDo';
@@ -41,9 +40,6 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-navy-950 text-white font-sans selection:bg-gold selection:text-navy-950 relative overflow-x-hidden">
-      {/* Navigation Bar */}
-      <Navbar />
-
       {/* Main Content Sections */}
       <main>
         <HeroSection />
